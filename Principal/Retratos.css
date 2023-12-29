@@ -1,0 +1,131 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 774px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 60px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 11px auto 0;
+}
+
+.u-section-1 .u-gallery-1 {
+  height: 609px;
+  grid-gap: 17px 17px;
+  width: 794px;
+  margin: 72px auto 60px;
+}
+
+.u-section-1 .u-gallery-inner-1 {
+  grid-template-columns: auto auto;
+  grid-gap: 10px 10px;
+}
+
+.u-section-1 .u-gallery-item-1 {
+  margin-right: 0;
+}
+
+.u-section-1 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-1 .u-gallery-item-2 {
+  margin-right: 0;
+}
+
+.u-section-1 .u-over-slide-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-gallery-inner-1 {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 50px;
+    margin-left: 283px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-right: 2px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height: 566px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-gallery-inner-1 {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 39px;
+    margin-left: 212px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    height: 580px;
+    margin-bottom: 25px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-over-slide-1 {
+    padding: 50px;
+  }
+
+  .u-section-1 .u-over-slide-2 {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1453px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 133px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    margin-bottom: 24px;
+    height: 1237px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-gallery-inner-1 {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .u-section-1 .u-over-slide-1 {
+    padding: 100px;
+  }
+
+  .u-section-1 .u-over-slide-2 {
+    padding: 100px;
+  }
+}
